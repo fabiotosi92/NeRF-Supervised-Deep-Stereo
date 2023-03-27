@@ -10,16 +10,18 @@ by [Fabio Tosi](https://fabiotosi92.github.io/)<sup>1</sup>, [Alessio Tonioni](h
 
 University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</sup>
 
-<br>
 
-<div style="text-align:center;font-size:25px;">
+<h2 align="center"> 
 
 [Project Page]() | [Paper]() |  [Supplementary]() 
-</div>
- 
- <div style="text-align:center;font-size:18px;">
+
+</h2>
+
+<h4 align="center">
+
  <span style="color:red">*Dataset, code snippets, and trained models coming soon!</span>
-</div>
+
+</h4>
 
 ![Alt text](./images/framework.png "architecture")
 
