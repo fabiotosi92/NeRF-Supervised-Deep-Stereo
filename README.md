@@ -1,10 +1,6 @@
-<div style="text-align:center;font-size:35px;">
-<strong>NeRF-Supervised Deep Stereo  </strong>
-</div>
 
-<div style="text-align:center;font-size:30px;">
-<strong> CVPR 2023 </strong>
-</div>
+<h1 align="center"> NeRF-Supervised Deep Stereo (CVPR 2023) </h1>
+
 
 <br>
 
