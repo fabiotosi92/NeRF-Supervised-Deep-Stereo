@@ -57,7 +57,7 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
   <img src="./images/dataset.png" width="800" />
 </p>
 
-**Examples of scenes in our dataset.** We report single samples from 30 of the scenes composing our datasets.
+**Examples of scenes in our dataset.** Here we report individual examples derived from 30 different scenes that comprise our dataset.
 
 <ins>Download link COMING SOON!<ins>
 
