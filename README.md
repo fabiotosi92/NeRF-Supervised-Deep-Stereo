@@ -19,11 +19,8 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <h4 align="center">
 
-```diff
 
- - Dataset, code snippets, and trained models coming soon! 
- 
- ```
+<ins>Dataset, code snippets, and trained models coming soon! </ins>
 
 </h4>
 
@@ -62,13 +59,13 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
 
 **Examples of scenes in our dataset.** We report single samples from 30 of the scenes composing our datasets.
 
-<span style="color:red">Download link COMING SOON!</span>
+<ins>Download link COMING SOON!<ins>
 
 ## Pretrained Models
 
 Here, you can download the weights of [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo)  and [PSMNet](https://github.com/JiaRenChang/PSMNet) achitectures, trained (from scratch) on rendered triplets of our real-world datasert using our NeRF-Supervised training loss. 
 
-<span style="color:red">Download link COMING SOON!</span>
+<ins>Download link COMING SOON!</ins>
 
 ## Qualitative Results
 
