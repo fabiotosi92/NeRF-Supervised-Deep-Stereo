@@ -1,10 +1,20 @@
-# NeRF-Supervised Deep Stereo <p> (CVPR 2023)
+<div style="text-align:center;font-size:35px;">
+<strong>NeRF-Supervised Deep Stereo  </strong>
+</div>
 
- This repository contains download links to our dataset, code snippets, and trained deep stereo models of our work  "**NeRF-Supervised Deep Stereo**",  [CVPR 2023](https://cvpr2023.thecvf.com/)
+<div style="text-align:center;font-size:30px;">
+<strong> CVPR 2023 </strong>
+</div>
+
+<br>
+
+This repository contains download links to our dataset, code snippets, and trained deep stereo models of our work  "**NeRF-Supervised Deep Stereo**",  [CVPR 2023](https://cvpr2023.thecvf.com/)
  
- by [Fabio Tosi](https://fabiotosi92.github.io/)<sup>1</sup>, [Alessio Tonioni](https://alessiotonioni.github.io/)<sup>2</sup>, [Daniele De Gregorio](https://www.eyecan.ai/)<sup>3</sup> and [Matteo Poggi](https://mattpoggi.github.io/)<sup>1</sup>. 
- University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</sup>
+by [Fabio Tosi](https://fabiotosi92.github.io/)<sup>1</sup>, [Alessio Tonioni](https://alessiotonioni.github.io/)<sup>2</sup>, [Daniele De Gregorio](https://www.eyecan.ai/)<sup>3</sup> and [Matteo Poggi](https://mattpoggi.github.io/)<sup>1</sup>
 
+University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</sup>
+
+<br>
 
 <div style="text-align:center;font-size:25px;">
 
