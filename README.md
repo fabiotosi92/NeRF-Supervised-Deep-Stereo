@@ -13,7 +13,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <h2 align="center"> 
 
-[Project Page]() | [Paper]() |  [Supplementary]() 
+[Project Page](https://nerfstereo.github.io/) | [Paper]() |  [Supplementary]() 
 
 </h2>
 
@@ -29,7 +29,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 **Contributions:** 
 
-* A novel paradigm for **collecting** and **generating stereo training data** using **neural rendering** and <u>a collection of user-collected image sequences</u>. Our methodology offers a means to train any stereo network using readily available user-collected images, thereby **eliminating the requirement for synthetic datasets, ground-truth depth, or (even) real stereo pairs**!
+* A novel paradigm for **collecting** and **generating stereo training data** using **neural rendering** and <ins>a collection of user-collected image sequences</ins>. Our methodology offers a means to train any stereo network using readily available user-collected images, thereby **eliminating the requirement for synthetic datasets, ground-truth depth, or (even) real stereo pairs**!
 
 * A **NeRF-Supervised (NS) training protocol** that combines rendered image triplets and depth maps to address occlusions and enhance fine details. 
 
@@ -51,7 +51,7 @@ If you find this code useful in your research, please cite:
 
 ## Dataset
 
-We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdoor environments using **standard camera-equipped smartphones**. For each scene, we focus on a/some specific object(s) and acquire 100 images from different viewpoints, ensuring that the scenery is completely static. The acquisition protocol involves a set of either front-facing or 360 views.
+We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdoor environments using **standard camera-equipped smartphones**. For each scene, we focus on a/some specific object(s) and acquire 100 images from different viewpoints, ensuring that the scenery is completely static. The acquisition protocol involves a set of either front-facing or 360° views.
 
 <p float="left">
   <img src="./images/dataset.png" width="800" />
