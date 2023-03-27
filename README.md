@@ -19,8 +19,11 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <h4 align="center">
 
+```diff
 
- <font color="red"> Dataset, code snippets, and trained models coming soon! </font>
+ - Dataset, code snippets, and trained models coming soon! 
+ 
+ ```
 
 </h4>
 
