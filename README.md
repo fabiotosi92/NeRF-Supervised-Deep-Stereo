@@ -74,7 +74,7 @@ Here, you can download the weights of [RAFT-Stereo](https://github.com/princeton
 </p>
 
 
-**Examples of Rendered Images and Depth.** We show examples on a scene of our dataset. In each case, the leftmost and rightmost columns show the rendered left and right images in a triplet, respectively. These images were obtained using small, medium, and large baselines, as indicated by the red, green, and blue lines. The center column, from top to bottom, shows the center image in the triplet, its corresponding rendered disparity map, and ambient occlusion map.
+**Examples of Rendered Images and Depth from NeRF.** We show examples on a scene of our dataset. In each case, the leftmost and rightmost columns show the rendered left and right images in a triplet, respectively. These images were obtained using small, medium, and large baselines, as indicated by the red, green, and blue lines. The center column, from top to bottom, shows the center image in the triplet, its corresponding rendered disparity map, and ambient occlusion map. Here, we adopt the Instant-NGP framework to render images.
 
 <br>
 
