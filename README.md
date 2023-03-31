@@ -13,7 +13,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <h2 align="center"> 
 
-[Project Page](https://nerfstereo.github.io/) | [Paper]() |  [Supplementary]() 
+[Project Page](https://nerfstereo.github.io/) | [Paper](https://arxiv.org/pdf/2303.17603.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) 
 
 </h2>
 
