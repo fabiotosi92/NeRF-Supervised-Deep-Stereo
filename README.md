@@ -38,8 +38,8 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 If you find this code useful in your research, please cite:
 
-```shell
-@InProceedings{Tosi_2023_CVPR,
+```bibtex
+@inproceedings{Tosi_2023_CVPR,
     author    = {Tosi, Fabio and Tonioni, Alessio and De Gregorio, Daniele and Poggi, Matteo},
     title     = {NeRF-Supervised Deep Stereo},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
