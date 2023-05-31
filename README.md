@@ -13,8 +13,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <h2 align="center"> 
 
-[Project Page](https://nerfstereo.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) | [Poster](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_poster.pdf) | [Video](https://www.youtube.com/watch?v=m7dqHkxb4yg&t=9s) 
-
+[Project Page](https://nerfstereo.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) | [Poster](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_poster.pdf) 
 </h2>
 
 <h4 align="center">
@@ -26,6 +25,10 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 ![Alt text](./images/framework.png "architecture")
 
+
+## Watch Our Research Video!
+
+[![Watch the video](./images/youtube.jpg)](https://youtu.be/m7dqHkxb4yg)
 
 **Contributions:** 
 
@@ -48,7 +51,6 @@ If you find this code useful in your research, please cite:
     pages     = {855-866}
 }
 ```
-
 
 
 ## Dataset
