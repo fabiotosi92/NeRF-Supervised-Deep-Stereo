@@ -98,6 +98,14 @@ Here, you can download the weights of [RAFT-Stereo](https://github.com/princeton
 **Qualitative Comparison on Midd-A H (top) and Midd-21 (bottom).** From left to right: left images and disparity maps by RAFT-Stereo models, respectively trained with MfS or NS. Under each disparity map, the percentage of pixels with error > 2.
 
 
+
+<p float="left">
+<img src="./images/arbitrary_baseline.gif" alt="GIF" width="800" >
+</p>
+
+
+**Arbitrary Baseline.** Demonstrating the ability of NeRF to generate stereo pairs with arbitrary baseline.
+
 ## Contacts
 
 For questions, please send an email to fabio.tosi5@unibo.it or m.poggi@unibo.it
