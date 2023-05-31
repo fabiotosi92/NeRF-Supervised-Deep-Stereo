@@ -99,12 +99,7 @@ Here, you can download the weights of [RAFT-Stereo](https://github.com/princeton
 
 
 
-<p float="left">
-<img src="./images/arbitrary_baseline.gif" alt="GIF" width="800" >
-</p>
 
-
-**Arbitrary Baseline.** Demonstrating the ability of NeRF to generate stereo pairs with arbitrary baseline.
 
 ## Contacts
 
