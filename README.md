@@ -18,7 +18,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <h2 align="center"> 
 
-[Project Page](https://nerfstereo.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) | [Poster](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_poster.pdf) | 📂 [Dataset](https://drive.google.com/drive/folders/1fkSneuLK3f3yW4VrFSsAsJEZ-Jys90l6)
+[Project Page](https://nerfstereo.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) | [Poster](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_poster.pdf) | 📂 [Dataset](https://amsacta.unibo.it/id/eprint/7218/)
 </h2>
 
 <h4 align="center">
@@ -68,7 +68,7 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
 
 **Examples of scenes in our dataset.** Here we report individual examples derived from 30 different scenes that comprise our dataset.
 
-[Download here](https://drive.google.com/drive/folders/1fkSneuLK3f3yW4VrFSsAsJEZ-Jys90l6)
+[Download here](https://amsacta.unibo.it/id/eprint/7218/) or [here (temporary link)](https://drive.google.com/drive/folders/1fkSneuLK3f3yW4VrFSsAsJEZ-Jys90l6)
 
 After downloading the dataset from the provided link, you will find two folders:
 
