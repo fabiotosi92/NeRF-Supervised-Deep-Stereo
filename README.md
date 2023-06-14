@@ -10,16 +10,39 @@ by [Fabio Tosi](https://fabiotosi92.github.io/)<sup>1</sup>, [Alessio Tonioni](h
 
 University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</sup>
 
+
 <div class="alert alert-info">
 
-**Note**: Kindly note that this repository is currently in the development phase. We are actively working to add and refine features and documentation. We apologize for any inconvenience caused by incomplete or missing elements and appreciate your patience as we work towards completion.
-
-</div>
 
 <h2 align="center"> 
 
 [Project Page](https://nerfstereo.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) | [Poster](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_poster.pdf) | 📂 [Dataset](https://amsacta.unibo.it/id/eprint/7218/)
 </h2>
+
+**Note**: Kindly note that this repository is currently in the development phase. We are actively working to add and refine features and documentation. We apologize for any inconvenience caused by incomplete or missing elements and appreciate your patience as we work towards completion.
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Video Presentation](#watch-our-research-video)
+3. [Dataset](#dataset)
+   - [Download](#get-your-hands-on-the-data)
+   - [Uploading Your Scene](#upload-your-scene)
+4. [Pretrained Models](#pretrained-models)
+5. [Code](#code)
+   - [Configuration Instructions](#setup-instructions)
+   - [Testing](#test)
+   - [Demo](#demo)
+6. [Training NeRF](#training-nerf)
+7. [Qualitative Results](#qualitative-results)
+8. [Contacts](#contacts)
+
+</div>
+
+## Introduction
+We introduce a pioneering pipeline that leverages NeRF to train deep stereo networks without the requirement of ground-truth depth or stereo cameras. By capturing images with a single low-cost handheld camera, we generate thousands of stereo pairs for training through our NS paradigm. This approach results in state-of-the-art zero-shot generalization, surpassing both self-supervised and supervised methods.
+
+
 
 <h4 align="center">
 
@@ -27,13 +50,6 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 <img src="./images/framework.png" alt="Alt text" style="width: 800px;" title="architecture">
 
- 
-
-## Watch Our Research Video!
-
-<a href="https://youtu.be/m7dqHkxb4yg">
-  <img src="./images/youtube.png" alt="Watch the video" width="800">
-</a>
 
 **Contributions:** 
 
@@ -57,6 +73,11 @@ If you find this code useful in your research, please cite:
 }
 ```
 
+## Watch Our Research Video!
+
+<a href="https://youtu.be/m7dqHkxb4yg">
+  <img src="./images/youtube.png" alt="Watch the video" width="800">
+</a>
 
 ## Dataset
 
@@ -68,6 +89,7 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
 
 **Examples of scenes in our dataset.** Here we report individual examples derived from 30 different scenes that comprise our dataset.
 
+### Get Your Hands on the Data
 [Download here](https://amsacta.unibo.it/id/eprint/7218/) or [here (temporary link)](https://drive.google.com/drive/folders/1fkSneuLK3f3yW4VrFSsAsJEZ-Jys90l6)
 
 After downloading the dataset from the provided link, you will find two folders:
@@ -78,6 +100,17 @@ After downloading the dataset from the provided link, you will find two folders:
 <br>⚠️ **Disparity Map Alignment**: All the disparity maps provided in the dataset are aligned with the 'center' image of each triplet.
 
  Please refer to the [dataset documentation](https://amsacta.unibo.it/id/eprint/7218/32/README_NeRF_stereo.rtf) for more detailed instructions on using the dataset effectively.
+
+### Upload your scene!
+
+Would you like to contribute to expanding our dataset in order to obtain more robust and accurate stereo models in every scenario? Upload your images via a zip file, and we will take care of processing them using NeRF and retraining the stereo models. Please refer to the [instruction](http://disi057217.ing.unibo.it:6804/INSTRUCTIONS.txt) for collecting/uploading your data.
+
+
+<div style="text-align: center;">
+  <a href="http://disi057217.ing.unibo.it:6804/" style="display: inline-block; text-decoration: none; padding: 10px; background-color: #f1f1f1; border-radius: 4px;">
+    <img src="./images/upload-button.png" alt="Upload Button" style="width: 290px; height: 80px; vertical-align: middle; margin-right: 5px;">
+  </a>
+</div>
 
 ## Pretrained Models
 
