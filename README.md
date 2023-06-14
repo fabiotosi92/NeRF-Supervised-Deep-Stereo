@@ -27,7 +27,6 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 2. [Video Presentation](#watch-our-research-video)
 3. [Dataset](#dataset)
    - [Download](#get-your-hands-on-the-data)
-   - [Uploading Your Scene](#upload-your-scene)
 4. [Pretrained Models](#pretrained-models)
 5. [Code](#code)
    - [Configuration Instructions](#setup-instructions)
@@ -101,16 +100,6 @@ After downloading the dataset from the provided link, you will find two folders:
 
  Please refer to the [dataset documentation](https://amsacta.unibo.it/id/eprint/7218/32/README_NeRF_stereo.rtf) for more detailed instructions on using the dataset effectively.
 
-### Upload your scene!
-
-Would you like to contribute to expanding our dataset in order to obtain more robust and accurate stereo models in every scenario? Upload your images via a zip file, and we will take care of processing them using NeRF and retraining the stereo models. Please refer to the [instruction](http://disi057217.ing.unibo.it:6804/INSTRUCTIONS.txt) for collecting/uploading your data.
-
-
-<div style="text-align: center;">
-  <a href="http://disi057217.ing.unibo.it:6804/" style="display: inline-block; text-decoration: none; padding: 10px; background-color: #f1f1f1; border-radius: 4px;">
-    <img src="./images/upload-button.png" alt="Upload Button" style="width: 290px; height: 80px; vertical-align: middle; margin-right: 5px;">
-  </a>
-</div>
 
 ## Pretrained Models
 
