@@ -19,7 +19,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 [Project Page](https://nerfstereo.github.io/) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tosi_NeRF-Supervised_Deep_Stereo_CVPR_2023_paper.pdf) |  [Supplementary](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_supplementary.pdf) | [Poster](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/raw/main/assets/Tosi_et_al_CVPR2023_poster.pdf) | 📂 [Dataset](https://amsacta.unibo.it/id/eprint/7218/)
 </h2>
 
-**Note**: Kindly note that this repository is currently in the development phase. We are actively working to add and refine features and documentation. We apologize for any inconvenience caused by incomplete or missing elements and appreciate your patience as we work towards completion.
+**Note**: 🚧 Kindly note that this repository is currently in the development phase. We are actively working to add and refine features and documentation. We apologize for any inconvenience caused by incomplete or missing elements and appreciate your patience as we work towards completion.
 
 ## Table of Contents
 
@@ -38,7 +38,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 </div>
 
-## Introduction
+## 🎬 Introduction
 We introduce a pioneering pipeline that leverages NeRF to train deep stereo networks without the requirement of ground-truth depth or stereo cameras. By capturing images with a single low-cost handheld camera, we generate thousands of stereo pairs for training through our NS paradigm. This approach results in state-of-the-art zero-shot generalization, surpassing both self-supervised and supervised methods.
 
 
@@ -72,13 +72,13 @@ If you find this code useful in your research, please cite:
 }
 ```
 
-## Watch Our Research Video!
+## 🎥 Watch Our Research Video!
 
 <a href="https://youtu.be/m7dqHkxb4yg">
   <img src="./images/youtube.png" alt="Watch the video" width="800">
 </a>
 
-## Dataset
+## Dataset :eyes:
 
 We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdoor environments using **standard camera-equipped smartphones**. For each scene, we focus on a/some specific object(s) and acquire 100 images from different viewpoints, ensuring that the scenery is completely static. The acquisition protocol involves a set of either front-facing or 360° views.
 
@@ -88,7 +88,7 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
 
 **Examples of scenes in our dataset.** Here we report individual examples derived from 30 different scenes that comprise our dataset.
 
-### Get Your Hands on the Data
+### 🔽 Get Your Hands on the Data
 [Download here](https://amsacta.unibo.it/id/eprint/7218/) or [here (temporary link)](https://drive.google.com/drive/folders/1fkSneuLK3f3yW4VrFSsAsJEZ-Jys90l6)
 
 After downloading the dataset from the provided link, you will find two folders:
@@ -101,7 +101,7 @@ After downloading the dataset from the provided link, you will find two folders:
  Please refer to the [dataset documentation](https://amsacta.unibo.it/id/eprint/7218/32/README_NeRF_stereo.rtf) for more detailed instructions on using the dataset effectively.
 
 
-## Pretrained Models
+## :inbox_tray: Pretrained Models
 
 Here, you can download the weights of **RAFT-Stereo** and **PSMNet** architectures. These models were trained from scratch on rendered triplets of our real-world dataset using our NeRF-Supervised training loss.
 
@@ -114,7 +114,7 @@ To use these weights, please follow these steps:
 3. Copy the downloaded weights into the `weights` folder.
 
 
-## Code
+## :memo: Code
 
 The **Test** section provides scripts to evaluate disparity estimation models on datasets like **KITTI**, **Middlebury**, and **ETH3D**. It helps assess the accuracy of the models and saves predicted disparity maps.
 
@@ -131,7 +131,7 @@ Please refer to each section for detailed instructions on setup and execution.
 </div>
 
 
-### Setup Instructions
+### :hammer: Setup Instructions
 
 1. **Dependencies**: Ensure that you have installed all the necessary dependencies. The list of dependencies can be found in the `./code_snippets/requirements.txt` file.
 
@@ -144,17 +144,18 @@ Please refer to each section for detailed instructions on setup and execution.
      - Navigate to the cloned repository and copy the contents of the `core` folder.
 
 
-      *(Please note that we have made modifications to the RAFT-Stereo implementation. Specifically, we have modified a line of code in the `raft_stereo.py` file. Previously, the code at line 136 in the `raft_stereo.py` file read as follows:)*
+        *(Please note that we have made modifications to the RAFT-Stereo implementation. Specifically, we have modified a line of code in the `raft_stereo.py` file. 
+        Previously, the code at line 136 in the `raft_stereo.py` file read as follows:)*
 
-      ```python
-      flow_predictions.append(flow_up)
-      ```
+        ```python
+        flow_predictions.append(flow_up)
+        ```
 
-      *We have made the following change:*
+        *We have made the following change:*
 
-      ```python
-      flow_predictions.append(-flow_up)
-      ```
+        ```python
+        flow_predictions.append(-flow_up)
+        ```
 
    - For PSMNet:
      - Clone the PSMNet repository by running the following command:
@@ -166,7 +167,7 @@ Please refer to each section for detailed instructions on setup and execution.
 3. **Paste files**: Paste the copied contents into the `./models/raft-stereo` or `./models/psmnet` folder in your project directory.
 
 
-## Test
+## :rocket: Test
 
 This code snippet allows you to evaluate the disparity maps on various datasets, including [KITTI (2012 and 2015)](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo), [Middlebury (Training, Additional, 2021)](https://vision.middlebury.edu/stereo/data/), and [ETH3D](https://www.eth3d.net/). By executing the provided script, you can assess the accuracy of disparity estimation models on these datasets.
 
@@ -200,7 +201,7 @@ For more details, please refer to the `test.sh` script in the `code_snippet` fol
 
 
 
-## Demo
+## :video_game: Demo
 
 You can use the `demo.py` script to estimate a disparity map from a single stereo pair. The script will run and produce the predicted disparity, which will be saved at the specified output path. Follow the instructions below to run the demo:
 
@@ -236,7 +237,7 @@ This command will estimate a disparity map using the selected deep stereo model 
 
 If you haven't downloaded the pretrained models yet, you can find the download links in the **Pretrained Models** section above.
 
-## Training NeRF
+## :train2: Training NeRF
 
 To train a NeRF model starting from a scene captured with a single camera, you can utilize various NeRF implementations available. One such implementation that we have used in our experiments is [Instant-NGP](https://github.com/NVlabs/instant-ngp). Instant-NGP offers high accuracy and fast training times, making it suitable for training multiple NeRF models and rendering thousands of images quickly.
 
@@ -245,7 +246,7 @@ Please refer to the Instant-NGP repository and follow their instructions for tra
 In addition, we provide a code snippet named `generate_stereo_pair_matrix.py` in the `code_snippets` folder. This code is used to generate stereo pairs from a **transform.json** file, which is typically used in Instant-NGP. You can use this code to facilitate the creation of stereo pairs for your NeRF training. Feel free to customize and adapt it according to your specific requirements.
 
 
-## Qualitative Results
+## :art: Qualitative Results
 
 In this section, we present illustrative examples that demonstrate the effectiveness of our proposal.
 
@@ -284,14 +285,14 @@ In this section, we present illustrative examples that demonstrate the effective
 
 
 
-## Contacts
+## :envelope: Contacts
 
 For questions, please send an email to fabio.tosi5@unibo.it or m.poggi@unibo.it
 
 (*) *This is not an officially supported Google product.* 
 
 
-## Acknowledgements
+## :pray: Acknowledgements
 
 We would like to extend our sincere appreciation to the authors of the following projects for making their code available, which we have utilized in our work:
 
