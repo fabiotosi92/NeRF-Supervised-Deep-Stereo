@@ -142,6 +142,20 @@ Please refer to each section for detailed instructions on setup and execution.
        git clone https://github.com/princeton-vl/RAFT-Stereo
        ```
      - Navigate to the cloned repository and copy the contents of the `core` folder.
+
+
+      *(Please note that we have made modifications to the RAFT-Stereo implementation. Specifically, we have modified a line of code in the `raft_stereo.py` file. Previously, the code at line 136 in the `raft_stereo.py` file read as follows:)*
+
+      ```python
+      flow_predictions.append(flow_up)
+      ```
+
+      *We have made the following change:*
+
+      ```python
+      flow_predictions.append(-flow_up)
+      ```
+
    - For PSMNet:
      - Clone the PSMNet repository by running the following command:
        ```shell
