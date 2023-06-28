@@ -23,22 +23,22 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 ## :bookmark_tabs: Table of Contents
 
-1. [Introduction](#introduction)
-2. [Video Presentation](#watch-our-research-video)
-3. [Dataset](#dataset)
-   - [Download](#get-your-hands-on-the-data)
-4. [Pretrained Models](#pretrained-models)
-5. [Code](#code)
-   - [Configuration Instructions](#setup-instructions)
-   - [Testing](#test)
-   - [Demo](#demo)
-6. [Training NeRF](#training-nerf)
-7. [Qualitative Results](#qualitative-results)
-8. [Contacts](#contacts)
+1. [Introduction](#clapper-introduction)
+2. [Video Presentation](#movie_camera-watch-our-research-video)
+3. [Dataset](#file_cabinet-dataset)
+   - [Download](#arrow_down-get-your-hands-on-the-data)
+4. [Pretrained Models](#inbox_tray-pretrained-models)
+5. [Code](#memo-code)
+   - [Configuration Instructions](#hammer_and_wrench-setup-instructions)
+   - [Testing](#rocket-test)
+   - [Demo](#video_game-demo)
+6. [Training NeRF](#train2-training-nerf)
+7. [Qualitative Results](#art-qualitative-results)
+8. [Contacts](#envelope-contacts)
 
 </div>
 
-## 🎬 Introduction
+## :clapper: Introduction
 We introduce a pioneering pipeline that leverages NeRF to train deep stereo networks without the requirement of ground-truth depth or stereo cameras. By capturing images with a single low-cost handheld camera, we generate thousands of stereo pairs for training through our NS paradigm. This approach results in state-of-the-art zero-shot generalization, surpassing both self-supervised and supervised methods.
 
 
@@ -72,13 +72,13 @@ We introduce a pioneering pipeline that leverages NeRF to train deep stereo netw
 }
 ```
 
-## 🎥 Watch Our Research Video!
+## :movie_camera: Watch Our Research Video!
 
 <a href="https://youtu.be/m7dqHkxb4yg">
   <img src="./images/youtube.png" alt="Watch the video" width="800">
 </a>
 
-## Dataset :eyes:
+## :file_cabinet: Dataset
 
 We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdoor environments using **standard camera-equipped smartphones**. For each scene, we focus on a/some specific object(s) and acquire 100 images from different viewpoints, ensuring that the scenery is completely static. The acquisition protocol involves a set of either front-facing or 360° views.
 
@@ -88,7 +88,7 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
 
 **Examples of scenes in our dataset.** Here we report individual examples derived from 30 different scenes that comprise our dataset.
 
-### 🔽 Get Your Hands on the Data
+### :arrow_down: Get Your Hands on the Data
 [Download here](https://amsacta.unibo.it/id/eprint/7218/)
 
 After downloading the dataset from the provided link, you will find two folders:
