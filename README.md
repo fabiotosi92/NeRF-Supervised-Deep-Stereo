@@ -1,10 +1,10 @@
 
-<h1 align="center"> NeRF-Supervised Deep Stereo (CVPR 2023) </h1>
+<h1 align="center"> NeRF-Supervised Deep Stereo (CVPR 2023) </h1> 
 
 
 <br>
 
-This repository contains download links to our dataset, code snippets, and trained deep stereo models of our work  "**NeRF-Supervised Deep Stereo**",  [CVPR 2023](https://cvpr2023.thecvf.com/)
+:rotating_light: This repository contains download links to our dataset, code snippets, and trained deep stereo models of our work  "**NeRF-Supervised Deep Stereo**",  [CVPR 2023](https://cvpr2023.thecvf.com/)
  
 by [Fabio Tosi](https://fabiotosi92.github.io/)<sup>1</sup>, [Alessio Tonioni](https://alessiotonioni.github.io/)<sup>2</sup>, [Daniele De Gregorio](https://www.eyecan.ai/)<sup>3</sup> and [Matteo Poggi](https://mattpoggi.github.io/)<sup>1</sup>
 
@@ -21,7 +21,7 @@ University of Bologna<sup>1</sup>,  Google Inc.<sup>2</sup>,  Eyecan.ai<sup>3</s
 
 **Note**: 🚧 Kindly note that this repository is currently in the development phase. We are actively working to add and refine features and documentation. We apologize for any inconvenience caused by incomplete or missing elements and appreciate your patience as we work towards completion.
 
-## Table of Contents
+## :bookmark_tabs: Table of Contents
 
 1. [Introduction](#introduction)
 2. [Video Presentation](#watch-our-research-video)
@@ -59,7 +59,7 @@ We introduce a pioneering pipeline that leverages NeRF to train deep stereo netw
 * **State-of-the art, zero-shot generalization** results on challenging stereo datasets, without exploiting any ground-truth or real stereo pair.
 
 
-If you find this code useful in your research, please cite:
+:fountain_pen: If you find this code useful in your research, please cite:
 
 ```bibtex
 @inproceedings{Tosi_2023_CVPR,
@@ -89,7 +89,7 @@ We collect a total of 270 high-resolution (8Mpx) scenes in both indoor and outdo
 **Examples of scenes in our dataset.** Here we report individual examples derived from 30 different scenes that comprise our dataset.
 
 ### 🔽 Get Your Hands on the Data
-[Download here](https://amsacta.unibo.it/id/eprint/7218/) or [here (temporary link)](https://drive.google.com/drive/folders/1fkSneuLK3f3yW4VrFSsAsJEZ-Jys90l6)
+[Download here](https://amsacta.unibo.it/id/eprint/7218/)
 
 After downloading the dataset from the provided link, you will find two folders:
 
@@ -131,7 +131,7 @@ Please refer to each section for detailed instructions on setup and execution.
 </div>
 
 
-### :hammer: Setup Instructions
+### :hammer_and_wrench: Setup Instructions
 
 1. **Dependencies**: Ensure that you have installed all the necessary dependencies. The list of dependencies can be found in the `./code_snippets/requirements.txt` file.
 
