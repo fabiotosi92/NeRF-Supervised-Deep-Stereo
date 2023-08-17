@@ -157,6 +157,8 @@ Please refer to each section for detailed instructions on setup and execution.
         flow_predictions.append(-flow_up)
         ```
 
+      **⚠️ Warning: during the evaluation phase, please ensure that you modify the `iters` parameter in the original RAFT-Stereo code from the default value of 12 to 32, as indicated in the original RAFT-Stereo paper.** 
+
    - For PSMNet:
      - Clone the PSMNet repository by running the following command:
        ```shell
