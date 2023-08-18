@@ -125,7 +125,8 @@ Please refer to each section for detailed instructions on setup and execution.
 <div class="alert alert-info">
 
 **Warning**:
-- Please be aware that we will not be releasing the training code for deep stereo models. The provided code focuses on evaluation and demonstration purposes only.
+- Please be aware that we will not be releasing the training code for deep stereo models. The provided code focuses on evaluation and demonstration purposes only. 
+- Nevertheless, we have made the **training file** used to train our models available through the following [link](https://github.com/fabiotosi92/NeRF-Supervised-Deep-Stereo/files/12376273/train.txt).
 - With the latest updates in PyTorch, slight variations in the quantitative results compared to the numbers reported in the paper may occur.
 
 </div>
